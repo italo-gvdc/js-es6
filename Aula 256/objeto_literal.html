@@ -2,10 +2,11 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Objetos literais</title>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
     <script type="text/babel">
+
         class Produto {
             constructor(descricao, preco){
                 this.descricao = descricao
@@ -17,6 +18,7 @@
             }
         }
 
+
         let produto = new Produto('Notebook', 2200)
         produto.verDescricao()
 
@@ -27,6 +29,7 @@
                 console.log(`${this.descricao} por apenas ${this.preco}`)
             }
         }
+
 
         produto.verDescricao()
         //----------------------------------------
