@@ -65,7 +65,7 @@ class Bd {
 				continue
 			}
 
-			despesas.push(despesas)
+			despesas.push(despesa)
 		}
 
 		return despesas
@@ -153,7 +153,7 @@ function carregaListaDespesa() {
 
     	console.log(d)
 
-    	//criando a linha (tr)
+    	//criando a li (tr)
     	let linha = listaDespesas.insertRow()
 
     	//criar as colunas (td)
